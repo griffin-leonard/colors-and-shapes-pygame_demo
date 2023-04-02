@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="104">
+ <tileset firstgid="1" source="Objects.tsx"/>
+ <objectgroup id="5" name="Views">
+  <object id="78" name="c1" x="384" y="480" width="768" height="384"/>
+  <object id="79" name="c1" x="0" y="480" width="384" height="192"/>
+  <object id="81" name="l1" x="64" y="800" width="320" height="192"/>
+  <object id="100" name="r1" x="1120" y="416" width="672" height="448"/>
+ </objectgroup>
+ <objectgroup id="4" name="Objects">
+  <object id="44" type="Platform" gid="5" x="320" y="992" width="1472" height="128"/>
+  <object id="45" name="red" type="Spike" gid="3" x="672" y="864" width="32" height="32"/>
+  <object id="46" name="red" type="Spike" gid="3" x="640" y="864" width="32" height="32"/>
+  <object id="47" name="red" type="Spike" gid="3" x="608" y="864" width="32" height="32"/>
+  <object id="48" name="red" type="Spike" gid="3" x="576" y="864" width="32" height="32"/>
+  <object id="49" name="red" type="Spike" gid="3" x="544" y="864" width="32" height="32"/>
+  <object id="50" name="red" type="Spike" gid="3" x="512" y="864" width="32" height="32"/>
+  <object id="51" name="red" type="Spike" gid="3" x="480" y="864" width="32" height="32"/>
+  <object id="52" name="red" type="Spike" gid="3" x="544" y="832" width="32" height="32"/>
+  <object id="53" name="red" type="Spike" gid="3" x="576" y="832" width="32" height="32"/>
+  <object id="54" name="red" type="Spike" gid="3" x="608" y="832" width="32" height="32"/>
+  <object id="55" name="red" type="Spike" gid="3" x="576" y="800" width="32" height="32"/>
+  <object id="57" name="red" type="Platform" gid="5" x="544" y="768" width="96" height="32"/>
+  <object id="58" type="Platform" gid="5" x="0" y="800" width="416" height="128"/>
+  <object id="59" name="red" type="Spike" gid="3" x="384" y="832" width="32" height="32"/>
+  <object id="60" name="red" type="Spike" gid="3" x="384" y="864" width="32" height="32"/>
+  <object id="61" name="red" type="Spike" gid="3" x="288" y="896" width="32" height="32"/>
+  <object id="62" type="Platform" gid="5" x="224" y="1088" width="96" height="192"/>
+  <object id="63" type="Platform" gid="5" x="160" y="1216" width="64" height="224"/>
+  <object id="64" type="Platform" gid="5" x="0" y="1280" width="64" height="416"/>
+  <object id="65" name="red" type="Spike" gid="3" x="96" y="832" width="32" height="32"/>
+  <object id="66" type="Platform" gid="5" x="0" y="864" width="96" height="64"/>
+  <object id="67" type="Platform" gid="5" x="64" y="1280" width="160" height="64"/>
+  <object id="68" name="red" type="Spike" gid="3" x="64" y="1216" width="32" height="32"/>
+  <object id="69" name="red" type="Spike" gid="3" x="96" y="1216" width="32" height="32"/>
+  <object id="70" name="red" type="Spike" gid="3" x="128" y="1216" width="32" height="32"/>
+  <object id="71" name="orange" type="Portal" gid="2" x="85" y="1135" width="54" height="64"/>
+  <object id="77" type="Platform" gid="5" x="1120" y="768" width="32" height="64"/>
+  <object id="83" name="red" type="Spike" gid="3" x="128" y="672" width="32" height="32"/>
+  <object id="84" name="red" type="Spike" gid="3" x="96" y="672" width="32" height="32"/>
+  <object id="85" name="red" type="Spike" gid="3" x="64" y="672" width="32" height="32"/>
+  <object id="86" name="red" type="Spike" gid="3" x="32" y="672" width="32" height="32"/>
+  <object id="87" name="red" type="Spike" gid="3" x="96" y="640" width="32" height="32"/>
+  <object id="88" name="red" type="Spike" gid="3" x="64" y="640" width="32" height="32"/>
+  <object id="89" name="red" type="Spike" gid="3" x="32" y="640" width="32" height="32"/>
+  <object id="90" name="red" type="Spike" gid="3" x="32" y="608" width="32" height="32"/>
+  <object id="91" name="red" type="Spike" gid="3" x="0" y="608" width="32" height="32"/>
+  <object id="92" name="red" type="Spike" gid="3" x="0" y="576" width="32" height="32"/>
+  <object id="93" name="red" type="Spike" gid="3" x="0" y="544" width="32" height="32"/>
+  <object id="94" name="red" type="Spike" gid="3" x="0" y="640" width="32" height="32"/>
+  <object id="95" name="red" type="Spike" gid="3" x="0" y="672" width="32" height="32"/>
+  <object id="96" name="orange" type="Portal" gid="2" x="565" y="559" width="54" height="64"/>
+  <object id="97" name="white" type="Bouncer" gid="8" x="576" y="736" width="32" height="32"/>
+  <object id="99" type="Platform" gid="5" x="1120" y="704" width="96" height="288"/>
+  <object id="101" type="Platform" gid="5" x="1216" y="608" width="128" height="192"/>
+  <object id="102" name="red" type="Door" gid="10" x="1120" y="864" width="32" height="96"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,80 @@
+3/14/23
++ Game class
++ Sprite and AnimatedSprite objects 
++ Player class
+
+3/15/23
++ delta time
++ Spike class
+
+3/16/23
++ collisions for solid objects
++ gravity
+player
+    + horizontal player movement
+    + player can jump
+        + hold jump button for higher jump
+
+3/18/23
++ Platform class
++ Orb class
+
+3/19/23 
++ level loading from tmx files (from Tiled)
+
+3/22/23
++ camera follows player
+    + camera keeps player in camera box
+orbs and levels
+    + different orb colors
+    + player color changes after collecting orb
+        + player color combines with orb color
+    + can shift level to player color
++ platform and background colors match level
+
+3/24/23
++ Level class
++ level objects loaded once and saved in Game
++ level objects persist when switching levels
++ checkpoint class
+    + active checkpoint rotates
+
+3/27/23
++ Portal class
+
+3/29/23
++ Key class
+    + keys follow player once picked up
+
+3/30/23
+* increased screen resolution
++ game screen scales to computer's display size
+player movement
+    + horizontal acceleration (instead of constant velocity)
+    + jump higher when moving faster
++ spikes of same color as player are not harmful
++ Particle class
+    + particles player jumps
+        + particles match player color
+        + particle velocity varies with player velocity
+
+3/31/23
++ death particles
+    + particles match player color
+    + particle velocity varies with player velocity
++ respawn sound
++ respawn at active checkpoint
+
+4/1/23
++ views 
+    + only display objects in current views
+    + draw foreground color over screen outside of view
++ Bouncer class
+    + bouncers attack player when different color
+    + bouncers bounce player when same color
+    + hold jump button when bouncing to jump higher
+    + bounce particles
++ Door class
+    + keys open doors of same color
++ respawn animation (particles)
++ different shapes for player

@@ -1,0 +1,90 @@
+########################
+KEY 
+* bug
++ add feature
+*? potential bug
+? potential feature
+########################
+
+GENERAL
++ player shapes
+* setting active checkpoint
++ saving/loading
+
+PHYSICS
+* handle spawing in platforms when shifting levels
++ leeway when clipping the corner of platforms (don't completely lose momentum)?
+? coyote time
+
+GRAPHICS
+* make state and color seperate attributes; state for animations, color for pixel color (partially done)
++ show room exits
++ more animations
+    + squash and stretch animations for player jumping
+    + idle vs. moving animations
++ portal animation 
+    ? with particles
+? cool screen transition for shifting levels
+? bouncing animation while walking (only in player draw function)
+*? objects twitch slightly when screen scrolls
+? lower opacity of spikes/objects when they are no longer interactable (i.e. when spikes are same color as player)
+
+SOUNDS
+bouncer
+    + attack
++ orb collect sound
+
+
+################        
+################ IDEAS 
+################
+
++ charm system
+    + 1+ use of shape power-up when a certain color (many of these)
+    + modified powerups
+        + longer attack, dash, etc. range (seperate )
+    + keep keys when you die
+    + view map
+    + map is colored 
+    + collect same shape multiple times for added benefits/multiple uses
+    + don't anger enemies of same color
+    + don't crumble platforms of same color (or certain color ever?)
+    + gravity?
+    + change color/shape/gravity at will
++ combine charms OR many charm slots OR upgrade charms
+
++ binding system
+    + bind abilities to certain colors/shapes?
+
++ find power source in each color world and activate it to unlock color in hub
+    + multiple power sources in each world, acting kind of like checkpoints
+    + just portals at first, then change to shifters?
+    + also unlock different shapes at start?
++ immune to enemies/obstacles when the same color
++ different shapes with different abilities
+    ideas:
+        + circle = basic
+        + star = change world
+        + blob = control enemies?
+        + ghost = float (endgame?)
+        + lightning bolt? = dash
+        + traingle/diamond/arrowhead/? = attack
+        + 6-sided star/fireball? = shoot 
+        + ? = teleport
+            + place portals and travel back to them at will
+        + circle/egg = change gravity?
+            + egg -> circle -> egg animation when gravity changes
+
+        + many other shapes??
+            + walljump/climb
+            + double jump (extraneous with dash)
+
+OLD
++ some kind of charm or item system for collectables or equipable abilities
+    + change color at will
+    + change shape at will
+    + increased range (specific shape and/or color?)
+    + extra life
++ colors affect how the abilities work?
+    + different effects on dash/shooting (fire, lightning, ect.)
++ color worlds become harder as you power them up?

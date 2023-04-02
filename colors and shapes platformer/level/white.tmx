@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="35" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="116">
+ <tileset firstgid="1" source="Objects.tsx"/>
+ <objectgroup id="7" name="Views" visible="0">
+  <object id="111" name="cp1" x="480" y="544" width="416" height="320"/>
+ </objectgroup>
+ <objectgroup id="2" name="Objects">
+  <object id="80" name="white" type="Checkpoint" gid="1" x="519" y="777" width="144" height="144"/>
+  <object id="81" name="red" type="Portal" gid="2" x="805" y="830" width="54" height="64"/>
+  <object id="106" type="Platform" gid="5" x="448" y="896" width="32" height="384"/>
+  <object id="107" type="Platform" gid="5" x="480" y="544" width="416" height="32"/>
+  <object id="108" type="Platform" gid="5" x="480" y="896" width="416" height="32"/>
+  <object id="109" type="Platform" gid="5" x="896" y="896" width="32" height="384"/>
+ </objectgroup>
+</map>
